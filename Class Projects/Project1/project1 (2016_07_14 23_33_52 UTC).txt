@@ -1,0 +1,204 @@
+Script started on Fri 23 Jan 2015 08:53:25 AM PST
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m java HybridChooser.[K
+What was the cost of the car?
+30000
+How many miles per year will you drive the car?
+15000
+What is the cost of a gallon of gas?
+4
+How many miles per gallon does the car average?
+40
+What was the resale value of the car after five years?
+16000
+The Total Cost of Ownership is 21500.0
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m java HybridChooser.[K
+What was the cost of the car?
+30000
+How many miles per year will you drive the car?
+15000
+What is the cost of a gallon of gas?
+4
+How many miles per gallon does the car average?
+27
+What was the resale value of the car after five years?
+20000
+The Total Cost of Ownership is 21111.11111111111
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m java HybridChooser.[K
+What was the cost of the car?
+23000
+How many miles per year will you drive the car?
+15000
+What is the cost of a gallon of gas?
+4
+How many miles per gallon does the car average?
+45
+What was the resale value of the car after five years?
+10000
+The Total Cost of Ownership is 19666.666666666664
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m java HybridChooser.[K
+What was the cost of the car?
+17000
+How many miles per year will you drive the car?
+15000
+What is the cost of a gallon of gas?
+4
+How many miles per gallon does the car average?
+33
+What was the resale value of the car after five years?
+12000
+The Total Cost of Ownership is 14090.909090909092
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m java GiveChange
+Enter the amount due in pennies: 
+256
+Enter the amount recieved in pennies: 
+300
+Give the following change:
+Dollars: 0
+Quarters: 1
+Dimes: 1
+Nickels: 1
+Pennies: 4
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m java GiveChange.[K
+Enter the amount due in pennies: 
+200
+Enter the amount recieved in pennies: 
+0
+Give the following change:
+Dollars: -2
+Quarters: 0
+Dimes: 0
+Nickels: 0
+Pennies: 0
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m java GiveChange.[K
+Enter the amount due in pennies: 
+467
+Enter the amount recieved in pennies: 
+898
+Give the following change:
+Dollars: 4
+Quarters: 1
+Dimes: 0
+Nickels: 1
+Pennies: 1
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m cat HybridChooser.[K
+cat: HybridChooser: No such file or directory
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m catH[K HybridChooser.java
+//This program helps a person to decide whether to buy a hybrid car.
+//Jonathan Gregory Fong
+//CS140
+//Project 1
+//January 21st, 2015
+
+import java.util.*;
+
+   public class HybridChooser
+{
+	public static void main(String[] args)
+	{
+		double NewCarCost; 	//What is the cost of the car? Variable.
+		double MPY;		//Estimated Miles Driven Per Year.
+		double CoG;		//Estimated Cost of Gas Per Gallon.
+		double MPG;		//Miles Per Gallon for car.
+		double Resale;		//Resale value of car after 5 years.
+		double owning;		//Total Cost of Ownership.
+		double FiveYrGasCost; 	//Cost of Five Years of Gas Consumption.
+		String input;		//To hold the user's input.
+
+			Scanner keyboard = new Scanner(System.in); 
+		
+		//Get the CarCost.
+		System.out.println("What was the cost of the car?");
+		NewCarCost = keyboard.nextDouble();
+		
+		//Get Miles Driven Per Year
+		System.out.println("How many miles per year will you drive the car?");
+		MPY = keyboard.nextDouble();
+	
+		//Get the Cost of Gas Per Gallon.
+		System.out.println("What is the cost of a gallon of gas?");
+		CoG = keyboard.nextDouble();
+
+		//Get the Miles Per Gallon
+		System.out.println("How many miles per gallon does the car average?");
+		MPG = keyboard.nextDouble();
+
+		//Get the Resale Value of the Car.
+		System.out.println("What was the resale value of the car after five years?");
+		Resale = keyboard.nextDouble();
+
+		//Calculate the total cost of ownership of the hybrid car.
+			//Calculating cost of gas for 5 years.
+			FiveYrGasCost = (MPY / MPG) * (CoG * 5);
+			//Calculating cost of New Car minus (5yr Gas Cost + resale)
+			owning = NewCarCost + FiveYrGasCost - Resale;
+
+		System.out.println("The Total Cost of Ownership is " + owning);
+	
+
+ 
+	System.exit(0);
+	}
+}
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m cat GiveChange.java
+//Jonathan Gregory Fong
+//CS140
+//Project 1
+//January 21st, 2015
+import java.util.*;
+
+
+
+public class GiveChange
+{
+	public static void main(String[] args)
+	{
+	short amountdue; 	//The amount needed in pennies.
+	short amountrecieved;	//The amount received in pennies.
+	int dollars;
+	int quarters;
+	int dimes;
+	int nickels;
+	int pennies;
+	int change;
+	String input;
+
+		
+		Scanner keyboard = new Scanner(System.in);
+	
+		System.out.println("Enter the amount due in pennies: ");
+	amountdue = keyboard.nextShort();
+
+		System.out.println("Enter the amount recieved in pennies: ");
+	amountrecieved = keyboard.nextShort();
+
+	change = amountrecieved - amountdue;
+		System.out.println("Give the following change:");
+
+		
+	dollars = change / 100;
+		System.out.println("Dollars: " + dollars);
+	
+	quarters = (change - (dollars * 100)) / 25;
+		System.out.println("Quarters: " + quarters);
+	
+	dimes = (change - ((dollars * 100) + (quarters * 25))) / 10;
+		System.out.println("Dimes: " + dimes);
+	
+	nickels = (change - ((dollars * 100) + (quarters * 25) + (dimes * 10))) / 05;
+		System.out.println("Nickels: " + nickels);
+
+	pennies = change - (((dollars * 100) + (quarters * 25) + (dimes * 10) + (nickels * 
+5))) / 01; 
+		System.out.println("Pennies: " + pennies);
+
+	
+
+	System.exit(0);
+
+
+	}
+}
+[01;32mjgfong@garrison[01;34m ~/CS140/Project1 $[00m exit
+exit
+
+Script done on Fri 23 Jan 2015 08:57:32 AM PST

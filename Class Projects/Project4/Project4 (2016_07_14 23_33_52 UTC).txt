@@ -1,0 +1,95 @@
+Script started on Sat 14 Mar 2015 02:28:24 PM PDT
+[01;32mjgfong@garrison[01;34m ~/CS140/Project4 $[00m java RockPaperScissors.[K
+----------------------------------
+Welcome to Rock, Paper, Scissors!
+----------------------------------
+1. ROCK
+2. PAPER
+3. SCISSORS
+----------------------------------
+Choose a weapon number to defeat the computer.
+Type in either 1, 2, or 3:
+2
+You have chosen the persistent PAPER.
+The wrappable PAPER wrapped the dense ROCK into an unsavory burrito!
+You won!
+[01;32mjgfong@garrison[01;34m ~/CS140/Project4 $[00m java RockPaperScissors
+----------------------------------
+Welcome to Rock, Paper, Scissors!
+----------------------------------
+1. ROCK
+2. PAPER
+3. SCISSORS
+----------------------------------
+Choose a weapon number to defeat the computer.
+Type in either 1, 2, or 3:
+1
+You have chosen the mighty ROCK.
+The formidable form changing PAPER has wrapped the dull ROCK into a sad pinata.
+A very sad pinata without candy.
+You lost!
+[01;32mjgfong@garrison[01;34m ~/CS140/Project4 $[00m java RockPaperScissors3[K
+----------------------------------
+Welcome to Rock, Paper, Scissors!
+----------------------------------
+1. ROCK
+2. PAPER
+3. SCISSORS
+----------------------------------
+Choose a weapon number to defeat the computer.
+Type in either 1, 2, or 3:
+3
+You have chosen the dicing SCISSORS.
+What?!?!?!?! Your SCISSORS is against the computer's SCISSORS?!?!?!?!
+The match has ended in a draw!!!
+You have to have a rematch to decide the winner!
+----------------------------------
+Welcome to Rock, Paper, Scissors!
+----------------------------------
+1. ROCK
+2. PAPER
+3. SCISSORS
+----------------------------------
+Choose a weapon number to defeat the computer.
+Type in either 1, 2, or 3:
+170   2
+You have chosen the persistent PAPER.
+The tearable terrible PAPER has been made into a snowflake by the dreaded SCISSORS.
+You lost!
+[01;32mjgfong@garrison[01;34m ~/CS140/Project4 $[00m java RockPaperScissors
+----------------------------------
+Welcome to Rock, Paper, Scissors!
+----------------------------------
+1. ROCK
+2. PAPER
+3. SCISSORS
+----------------------------------
+Choose a weapon number to defeat the computer.
+Type in either 1, 2, or 3:
+4
+That is not a valid input. Read your instructions, user!
+Something has gone horribly wrong. There is a crack in the fabric of reality.
+Due to the unexpected nature of the event, the match has been cancelled.
+Please call your nearest Time Lord with a Type-40 TARDIS or look for a Police Box for assistance.
+[01;32mjgfong@garrison[01;34m ~/CS140/Project4 $[00m java RockPaperScissors
+----------------------------------
+Welcome to Rock, Paper, Scissors!
+----------------------------------
+1. ROCK
+2. PAPER
+3. SCISSORS
+----------------------------------
+Choose a weapon number to defeat the computer.
+Type in either 1, 2, or 3:
+1701
+-----------------------------------------------------------
+I never took the Kobayashi Maru test until now. What do you think of my solution?
+Spock.
+I have been, and always shall be, your friend. Live long and prosper.
+--------------------------------
+Leonard Nimoy: March 26, 1931 - February 27, 2015
+He has boldly gone where no man has gone before...
+[01;32mjgfong@garrison[01;34m ~/CS140/Project4 $[00m exit
+exit
+
+Script done on Sat 14 Mar 2015 02:29:28 PM PDT

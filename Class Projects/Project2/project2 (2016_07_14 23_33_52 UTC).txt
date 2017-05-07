@@ -1,0 +1,37 @@
+Script started on Sat 07 Feb 2015 07:25:26 PM PST
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m java FrenchName
+Enter country name:
+Belize
+le Belize
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m jav [Ka FrenchName
+Enter country name:
+Canada
+le Canada
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m java FrenchName
+Enter country name:
+Afganistan
+l'Afganistan
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m java French [KName
+Enter country name:
+Belqique
+la Belqique
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m java FrenchName
+Enter country name:
+Pays-Bas
+les Pays-Bas
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m java FrenchName
+Enter country name:
+Egypt
+l'Egypt
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m java FrenchName
+Enter country name:
+Brazil
+le Brazil
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m java FrenchName
+Enter country name:
+Austrai^Hlia
+l'Austrailia
+[01;32mjgfong@fluffy[01;34m ~/CS140/Project2 $[00m exit
+exit
+
+Script done on Sat 07 Feb 2015 07:27:43 PM PST

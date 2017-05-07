@@ -1,0 +1,98 @@
+Script started on Sun 01 Mar 2015 04:51:22 PM PST
+[01;32mjgfong@garrison[01;34m ~/CS140/Project3 $[00m java SlotMachineSimulation.[K
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+100
+-[ Bars ]--[ Plums ]--[ Plums ]-
+Nice! Two of a kind!
+Your entered bet doubles!
+You win $200
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+200
+-[ Bars ]--[ Oranges ]--[ Bars ]-
+Sorry. None match.
+You win $0
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+900
+-[ Plums ]--[ Bells ]--[ Bars ]-
+Sorry. None match.
+You win $0
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+400
+-[ Bars ]--[ Bars ]--[ Bells ]-
+Nice! Two of a kind!
+Your entered bet doubles!
+
+You win $800
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+1000
+-[ Melons ]--[ Bars ]--[ Bars ]-
+Nice! Two of a kind!
+Your entered bet doubles!
+You win $2,000
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+264
+-[ Oranges ]--[ Bars ]--[ Bars ]-
+Sorry. None match.
+You win $0
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+343
+-[ Bars ]--[ Bars ]--[ Bells ]-
+Nice! Two of a kind!
+Your entered bet doubles!
+
+You win $686
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+910
+-[ Melons ]--[ Melons ]--[ Bars ]-
+Nice! Two of a kind!
+Your entered bet doubles!
+
+You win $1,820
+Would you like to play again?
+Enter Y for yes or N for no: 
+y
+Welcome to the Slot Machine Simulation.
+Enter the amount you want to bet: $
+457
+-[ Bars ]--[ Plums ]--[ Plums ]-
+Nice! Two of a kind!
+Your entered bet doubles!
+You win $914
+Would you like to play again?
+Enter Y for yes or N for no: 
+n
+You bet a total of $4,574
+You won a total of $6,420
+[01;32mjgfong@garrison[01;34m ~/CS140/Project3 $[00m exit
+exit
+
+Script done on Sun 01 Mar 2015 04:52:43 PM PST
